@@ -1,0 +1,44 @@
+#mientras el número de carateres ingresados para un usuario de Instagram sea más de 8, se pedirá que vuelva a ingresarse. 
+def nombreinsta(numero): 
+    nombre = input("ingrese el nombre de usuario")
+    while len(nombre)>numero:#que se repitan hasta que el nombre sea menor a los caracteres que definas en los parametros
+        nombre = input("ingrese el nombre de usuario otra vez")
+    return nombre
+    
+#TikTok asigna el espacio de alcenamiento a partir de la edad del usuario
+def tiktok(edad):
+    resultado=edad
+    return resultado
+edad=int(input("TikTok asigna como espacio de almacenamiento en GB calculando la edad del usuario elevada al cuadrado,dime tu edad:"))
+print (pow (edad , 2,))
+
+#Dado el nombre de un canal de Youtube coloca  la primer letra en mayúscula
+def analizar(a):
+    return (a).capitalize()
+    
+#Devuelve T si la contraseña de TikTok ingresada son todos digitos, en caso contrario retorna F
+def contraseñatt(a):
+    if str.isdigit(a)==True:
+        return ("T")
+    else:
+        return ("F")
+
+#mi funcion se trata de que el usuario ingrese un nombre para instagram, lo unico que el nombre que ingresen debe contener menos de 8 letras, si tiene mas el programa le idicara al usuario que es invalido.
+print("(tu nombre debe contener menos de 8 letras)")
+print("")
+def nombreUsuario (nombre):
+	letras= len(nombre)
+	if letras<8:
+	    mensaje= "ok", nombre
+	else:
+	    mensaje= "es invalido"
+	return mensaje
+  
+#Devuelve True si la contraseña de TikTok ingresada son todos digitos, en caso contrario retorna False
+def verificacion(num1):
+	num1 =str.isdigit(num1)
+	if (num1):
+		print("tu contraseña es valida")
+	else:
+		print("tu contraseña no es valida, profavor inglese solo numeros")
+	return(num1)
