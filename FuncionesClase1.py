@@ -42,3 +42,14 @@ def verificacion(num1):
 	else:
 		print("tu contraseña no es valida, profavor inglese solo numeros")
 	return(num1)
+
+#Retorna True si la contraseña para TikTok son todos números o False en caso contrario
+contraseña = input("ingrese su contraseña de tiktok, ingrese unicamente numeros")
+verificador = 0
+def clavedetiktok (parametro,parametro1):
+    parametro = str.isdigit(parametro1)
+    if (parametro) :
+        print("se guardo tu contraseña en tu usuario de tiktok")
+    else :
+        print("tu contraseña contiene letras, coloque unicamente numeros en su contraseña")
+    return parametro
