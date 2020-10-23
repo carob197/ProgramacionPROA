@@ -1,8 +1,8 @@
 #mientras el número de carateres ingresados para un usuario de Instagram sea más de 8, se pedirá que vuelva a ingresarse. 
-def nombreinsta(numero): 
-    nombre = input("ingrese el nombre de usuario")
-    while len(nombre)>numero:#que se repitan hasta que el nombre sea menor a los caracteres que definas en los parametros
-        nombre = input("ingrese el nombre de usuario otra vez")
+nombre = input("ingrese el nombre de usuario")
+def nombreinsta(nombre): 
+    while len(nombre)>8:#que se repitan hasta que el nombre sea menor a los caracteres que definas en los parametros
+      nombre = input("ingrese el nombre de usuario otra vez")
     return nombre
     
 #TikTok asigna el espacio de alcenamiento a partir de la edad del usuario
