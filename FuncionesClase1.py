@@ -7,10 +7,12 @@ def nombreinsta(nombre):
     
 #TikTok asigna el espacio de alcenamiento a partir de la edad del usuario
 def tiktok(edad):
-    resultado=edad
+    resultado=pow(edad,2)
     return resultado
+
 edad=int(input("TikTok asigna como espacio de almacenamiento en GB calculando la edad del usuario elevada al cuadrado,dime tu edad:"))
-print (pow (edad , 2,))
+print("tiktok da", tiktok(edad))
+
 
 #Dado el nombre de un canal de Youtube coloca  la primer letra en mayúscula
 def analizar(a):
