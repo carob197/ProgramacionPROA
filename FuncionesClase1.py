@@ -18,7 +18,7 @@ print("tiktok da", tiktok(edad))
 #Devuelve "valido" si la contraseña de TikTok ingresada son todos digitos, en caso contrario retorna "Ingrese solo números"
 def tiktok(contra):
   correcto="valido"
-  incorrecto="ingrese solo numeros "
+  incorrecto="incorrecto"
   if (str.isdigit(contra)):
     return correcto
   else:
