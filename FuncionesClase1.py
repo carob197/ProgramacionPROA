@@ -25,6 +25,14 @@ def tiktok(contra):
     return incorrecto
 
 
+#Devuelve un msj avisando si se puede usar el nombre de usuario ingresado cumple con la  condición de contar con menos de 8 letras, si se puede usar devuelve la frase "ese nombre de usuario se puede usar" y sino "ese nombre de usuario no se puede usar"
+def insta (nombreusuario):
+ if len(nombreusuario)<8:
+     resultado2="ese nombre de usuario se puede usar"
+ else :
+    resultado2="ese nombre de usuario no se puede usar"
+    return resultado2
+
 
 #Dado el nombre de un canal de Youtube coloca  la primer letra en mayúscula
 def analizar(a):
